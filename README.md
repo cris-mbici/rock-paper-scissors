@@ -1,4 +1,4 @@
-# Rock-Paper-Scissors Game  
+# Rock-Paper-Scissors 
 [Watch the demo](https://github.com/cris-mbici/rock-paper-scissors/blob/main/rock-paper-scissors.mp4)
 . This is a Rock-Paper-Scissors game where the player competes against an AI. The game starts with a welcome message and then enters a loop where the player selects between rock, paper, or scissors. The AI randomly chooses its move, and the results are displayed using both text and emojis.  
 
