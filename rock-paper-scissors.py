@@ -13,12 +13,12 @@ def emoji(content):
   elif content == "scissors":
     return "✂️"
 
-#Initiates main game loop
+#Starts the main game loop
 while True:
   possible_choices = ["rock", "paper", "scissors"]
   ai_output = random.choice(possible_choices)
   
-  #User input + error handling
+  #User input + error handling for the game
   while True:
     user_input = input("Rock, paper, or scissors? >> ")
     user_input = user_input.strip()
@@ -79,7 +79,7 @@ while True:
     You lose!
     """)
   
-  #Gives the user a chance to play again
+  #Gives the user a chance to play again after every round
   play_again = input("Would you like to play again? (y/n) >> ")
   play_again = play_again.strip()
   play_again = play_again.lower()
